@@ -1,0 +1,23 @@
+# Datos locales potencialmente sensibles
+/datos-privados/
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.mp4
+*.mov
+*.m4v
+
+# Fuentes locales pendientes de revisión de confidencialidad o redistribución
+/documentacion/proyecto/briefs/brief-operativo-virtut-app-clips-2026-10-01.pdf
+/referencias/libros/matematicas-2eso.pdf
+
+# Secretos y archivos temporales
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]

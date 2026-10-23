@@ -1,0 +1,3 @@
+# Modelo de datos
+
+Aquí se desarrolla el modelo entidad-relación, el diccionario de entidades y sus cardinalidades. La [propuesta conceptual](propuesta-modelo-conceptual-v0.1.md) explica el propósito; la [matriz de relaciones y cardinalidades](relaciones-y-cardinalidades-borrador.md) separa requisitos, supuestos y pendientes; el [esqueleto ER v0.1](esqueleto-er-v0.1.md) presenta la vista visual y describe el primer borrador. Su implementación revisable está en la [migración PostgreSQL](../../../base-de-datos/postgresql/migraciones/001_esqueleto_compartido_v0_1.sql) y en el [paquete importable para Luis](../../../base-de-datos/postgresql/entregas-a-luis/primera-entrega-v0.1/README.md).

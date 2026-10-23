@@ -1,0 +1,2128 @@
+{
+  "catalog_id": "DESPEGA-MATH-2ESO-LT",
+  "catalog_version": "0.1",
+  "status": "VALIDATED_FOR_EXPERIMENT",
+  "frozen_snapshot_date": "2026-09-23",
+  "scope": "Matemáticas — 2º ESO — catálogo experimental inicial",
+  "purpose": "Unidades pedagógicas estables sobre las que acumular evidencia en el Motor Despega.",
+  "completeness_claim": false,
+  "governance": {
+    "canonicalization_authority": "HUMAN_REVIEW / SYSTEM_OWNER",
+    "ai_self_validation_allowed": false,
+    "silent_modification_allowed": false,
+    "future_change_policy": "Cualquier cambio posterior debe generar una nueva versión del catálogo.",
+    "relationships_included": false,
+    "learner_evidence_included": false,
+    "curriculum_alignment_claimed": false,
+    "source_of_truth_rule": "Este archivo representa el snapshot limpio v0.1. El espacio de descubrimiento/candidatos debe mantenerse separado."
+  },
+  "source_basis": [
+    {
+      "source_id": "SRC-BOOK-001",
+      "name": "Libro2ESO pdf Matemáticas.pdf",
+      "role": "educational source material"
+    },
+    {
+      "source_id": "SRC-HUMAN-REVIEW-001",
+      "name": "Iterative human review in this conversation",
+      "role": "granularity refinement, recurring-error knowledge, approval of v0.1"
+    }
+  ],
+  "historical_lineage": {
+    "bootstrap_first_pass": "CB-01 generated 117 first-pass candidates.",
+    "bootstrap_second_pass": "Second pass introduced conceptual microtargets, procedural microtargets, contextual modeling targets and transversal problem-solving targets.",
+    "legacy_candidate_ids_are_canonical": false,
+    "legacy_to_v0_1_mapping": "Not frozen in this file because many legacy candidates were split or reorganized; no one-to-one mapping is asserted."
+  },
+  "validation_summary": {
+    "target_count": 308,
+    "domain_count": 19,
+    "unique_ids": 308,
+    "duplicate_ids": [],
+    "all_canonical_target_status": "VALIDATED_FOR_EXPERIMENT",
+    "relationships_count": 0
+  },
+  "domains": [
+    {
+      "domain_id": "PS",
+      "title": "Resolución de problemas — capa transversal",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [
+        "PS-004, PS-008 y PS-009 fueron reforzados explícitamente por feedback humano."
+      ],
+      "targets": [
+        {
+          "learning_target_id": "LT-PS-001",
+          "canonical_label": "Comprender la situación descrita en un enunciado matemático antes de comenzar a operar.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-002",
+          "canonical_label": "Identificar exactamente qué pregunta el problema y qué cantidad, objeto o incógnita debe obtenerse.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-003",
+          "canonical_label": "Extraer y organizar los datos y condiciones proporcionados por el enunciado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-004",
+          "canonical_label": "Distinguir información relevante de información innecesaria para la resolución cuando ambas aparecen.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-005",
+          "canonical_label": "Identificar las relaciones existentes entre los datos y aquello que se desea conocer.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-006",
+          "canonical_label": "Traducir relaciones verbales o gráficas a una representación matemática adecuada.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-007",
+          "canonical_label": "Construir una secuencia de operaciones o pasos que conecte los datos disponibles con lo solicitado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-008",
+          "canonical_label": "Interpretar qué representa un resultado intermedio dentro del contexto del problema.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-009",
+          "canonical_label": "Determinar si un resultado intermedio responde ya a la pregunta o si todavía es necesario continuar operando.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-010",
+          "canonical_label": "Interpretar el significado del resultado final respecto de la pregunta planteada.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-011",
+          "canonical_label": "Comprobar que la solución obtenida es compatible con las condiciones originales del problema.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PS-012",
+          "canonical_label": "Expresar la respuesta final indicando correctamente referente, magnitud y unidad cuando corresponda.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "DIV",
+      "title": "Divisibilidad",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-DIV-001",
+          "canonical_label": "Reconocer cuándo una división es exacta, vinculándola con resto cero.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-002",
+          "canonical_label": "Determinar si un número es divisor de otro mediante divisibilidad exacta.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-003",
+          "canonical_label": "Determinar si un número es múltiplo de otro.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-004",
+          "canonical_label": "Generar múltiplos de un número.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-005",
+          "canonical_label": "Relacionar recíprocamente múltiplo y divisor.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-006",
+          "canonical_label": "Enumerar los divisores de un número.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-007",
+          "canonical_label": "Reconocer números primos a partir de sus divisores.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-008",
+          "canonical_label": "Aplicar los criterios de divisibilidad presentados por el material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-009",
+          "canonical_label": "Descomponer un número en factores primos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-010",
+          "canonical_label": "Identificar divisores comunes de dos o más números.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-011",
+          "canonical_label": "Identificar múltiplos comunes de dos o más números.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-012",
+          "canonical_label": "Interpretar el m.c.d. como el mayor divisor común.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-013",
+          "canonical_label": "Calcular el m.c.d. mediante descomposición en factores primos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-014",
+          "canonical_label": "Interpretar el m.c.m. como el menor múltiplo común.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-015",
+          "canonical_label": "Calcular el m.c.m. mediante descomposición en factores primos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-016",
+          "canonical_label": "Reconocer números primos entre sí mediante m.c.d. igual a 1.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-017",
+          "canonical_label": "Determinar, dentro de un problema, si resulta pertinente utilizar divisibilidad, m.c.d. o m.c.m.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DIV-018",
+          "canonical_label": "Modelizar y resolver situaciones contextualizadas de divisibilidad.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "INT",
+      "title": "Números enteros",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [
+        "LT-INT-005, LT-INT-009 y LT-INT-011 recogen refinamientos aportados por revisión humana."
+      ],
+      "targets": [
+        {
+          "learning_target_id": "LT-INT-001",
+          "canonical_label": "Distinguir enteros positivos, negativos y cero.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-002",
+          "canonical_label": "Reconocer y obtener el opuesto de un número entero.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-003",
+          "canonical_label": "Representar enteros en la recta numérica.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-004",
+          "canonical_label": "Comparar y ordenar enteros atendiendo a su posición respecto de cero.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-005",
+          "canonical_label": "Comprender que entre negativos el de mayor valor absoluto se encuentra más alejado de cero y es numéricamente menor; por ejemplo, −33 < −1.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-006",
+          "canonical_label": "Utilizar el valor absoluto al razonar sobre operaciones con enteros.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-007",
+          "canonical_label": "Sumar enteros con el mismo signo.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-008",
+          "canonical_label": "Sumar enteros con distinto signo comparando valores absolutos y determinando correctamente el signo resultante.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-009",
+          "canonical_label": "Interpretar suma y resta de enteros como acercamiento o alejamiento respecto de cero cuando resulte útil.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-010",
+          "canonical_label": "Restar números enteros transformando correctamente la operación.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-011",
+          "canonical_label": "Interpretar correctamente signos consecutivos como −(+a) y −(−a).",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-012",
+          "canonical_label": "Gestionar un signo menos delante de un paréntesis modificando los signos afectados.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-013",
+          "canonical_label": "Multiplicar enteros aplicando correctamente las reglas de signos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-014",
+          "canonical_label": "Dividir enteros aplicando correctamente las reglas de signos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-015",
+          "canonical_label": "Identificar la prioridad de operaciones en una expresión combinada.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-016",
+          "canonical_label": "Resolver operaciones combinadas con enteros respetando prioridad, paréntesis y signos.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-INT-017",
+          "canonical_label": "Traducir situaciones contextualizadas como deuda, temperatura o variación a números enteros con signo.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "POW_ROOT_P10",
+      "title": "Potencias, raíces y potencias de 10",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-POW-001",
+          "canonical_label": "Identificar base y exponente de una potencia.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-002",
+          "canonical_label": "Interpretar una potencia como producto reiterado en los casos correspondientes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-003",
+          "canonical_label": "Determinar el signo de una potencia de base negativa según la paridad del exponente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-004",
+          "canonical_label": "Multiplicar potencias de la misma base.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-005",
+          "canonical_label": "Dividir potencias de la misma base.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-006",
+          "canonical_label": "Calcular una potencia de otra potencia.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-007",
+          "canonical_label": "Aplicar potencia de un producto.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-008",
+          "canonical_label": "Aplicar potencia de un cociente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-009",
+          "canonical_label": "Interpretar y calcular potencias de exponente cero.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-010",
+          "canonical_label": "Interpretar y calcular potencias de exponente negativo.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POW-011",
+          "canonical_label": "Resolver expresiones combinando varias propiedades de potencias.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ROOT-001",
+          "canonical_label": "Interpretar la raíz como operación vinculada a la potenciación.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ROOT-002",
+          "canonical_label": "Calcular raíces cuadradas exactas en los casos tratados.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ROOT-003",
+          "canonical_label": "Aproximar raíces cuando el resultado no es entero exacto dentro del procedimiento del material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ROOT-004",
+          "canonical_label": "Trabajar con otras raíces dentro del alcance presentado por la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-P10-001",
+          "canonical_label": "Interpretar potencias positivas de 10 mediante órdenes de magnitud decimal.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-P10-002",
+          "canonical_label": "Interpretar potencias negativas de 10 en relación con décimas, centésimas, milésimas, etc.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-P10-003",
+          "canonical_label": "Descomponer números utilizando potencias de 10.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-P10-004",
+          "canonical_label": "Expresar números muy grandes o muy pequeños mediante potencias de 10 según el tratamiento del material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "FR_RAT",
+      "title": "Fracciones y números racionales",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [
+        "LT-FR-004, LT-FR-005, LT-FR-022, LT-FR-023 y LT-FR-025 recogen refinamientos explícitos surgidos del feedback humano."
+      ],
+      "targets": [
+        {
+          "learning_target_id": "LT-FR-001",
+          "canonical_label": "Interpretar el denominador como número de partes iguales en que se divide la unidad o referente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-002",
+          "canonical_label": "Interpretar el numerador como número de esas partes que se consideran.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-003",
+          "canonical_label": "Identificar cuál es el todo o referente respecto del cual se expresa una fracción.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-004",
+          "canonical_label": "Interpretar 1 como la totalidad o unidad completa en una situación fraccionaria.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-005",
+          "canonical_label": "Representar esa totalidad mediante una fracción equivalente cuando sea necesario, por ejemplo 1 = 5/5.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-006",
+          "canonical_label": "Reconocer y generar fracciones equivalentes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-007",
+          "canonical_label": "Comprender que multiplicar o dividir numerador y denominador por un mismo número no nulo conserva el valor.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-008",
+          "canonical_label": "Simplificar una fracción.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-009",
+          "canonical_label": "Reconocer una fracción irreducible.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-010",
+          "canonical_label": "Reducir fracciones a denominador común.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-011",
+          "canonical_label": "Utilizar el m.c.m. para obtener el menor denominador común dentro del método enseñado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-012",
+          "canonical_label": "Sumar y restar fracciones con el mismo denominador.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-013",
+          "canonical_label": "Sumar y restar fracciones con distinto denominador.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-014",
+          "canonical_label": "Representar un entero como fracción de denominador 1 cuando sea necesario.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-015",
+          "canonical_label": "Multiplicar fracciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-016",
+          "canonical_label": "Dividir fracciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-017",
+          "canonical_label": "Operar conjuntamente enteros y fracciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-018",
+          "canonical_label": "Resolver operaciones combinadas con fracciones respetando prioridad.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-019",
+          "canonical_label": "Calcular una fracción de una cantidad.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-020",
+          "canonical_label": "Expresar una parte de un total como fracción.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-021",
+          "canonical_label": "Obtener el total cuando se conoce una fracción y la cantidad correspondiente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-022",
+          "canonical_label": "Obtener la parte restante mediante complemento a la unidad, por ejemplo 1 − 3/8.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-023",
+          "canonical_label": "Distinguir si una fracción se aplica al total inicial, al resto o a una cantidad obtenida previamente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-024",
+          "canonical_label": "Resolver situaciones de «parte de una parte».",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-025",
+          "canonical_label": "Interpretar correctamente cantidades intermedias obtenidas durante un problema con fracciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FR-026",
+          "canonical_label": "Modelizar y resolver problemas contextualizados mediante fracciones.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-RAT-001",
+          "canonical_label": "Convertir una fracción a representación decimal mediante división.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-RAT-002",
+          "canonical_label": "Convertir un decimal finito a fracción.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-RAT-003",
+          "canonical_label": "Obtener la fracción generatriz de un decimal periódico mediante el procedimiento presentado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-RAT-004",
+          "canonical_label": "Distinguir los números racionales de los decimales infinitos no periódicos dentro del tratamiento de la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "DEC",
+      "title": "Números decimales",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-DEC-001",
+          "canonical_label": "Interpretar el valor posicional de las cifras en un número decimal.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-002",
+          "canonical_label": "Descomponer un número según sus órdenes decimal y entero.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-003",
+          "canonical_label": "Pasar entre representación verbal-posicional y escritura decimal.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-004",
+          "canonical_label": "Comparar números decimales cifra a cifra.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-005",
+          "canonical_label": "Representar números decimales en la recta.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-006",
+          "canonical_label": "Intercalar un número decimal entre otros dos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-007",
+          "canonical_label": "Redondear al orden solicitado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-008",
+          "canonical_label": "Interpretar el error asociado a una aproximación según el tratamiento de la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-009",
+          "canonical_label": "Sumar y restar números decimales alineando los órdenes correspondientes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-010",
+          "canonical_label": "Multiplicar números decimales gestionando correctamente las cifras decimales del producto.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-011",
+          "canonical_label": "Dividir números decimales mediante el procedimiento presentado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-012",
+          "canonical_label": "Resolver operaciones combinadas con números decimales.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-DEC-013",
+          "canonical_label": "Modelizar y resolver situaciones contextualizadas con números decimales.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "SEX",
+      "title": "Sistema sexagesimal",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-SEX-001",
+          "canonical_label": "Comprender las equivalencias de base 60 entre horas, minutos y segundos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-002",
+          "canonical_label": "Comprender las equivalencias de base 60 entre grados, minutos y segundos de ángulo.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-003",
+          "canonical_label": "Convertir una medida compleja de tiempo a una única unidad.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-004",
+          "canonical_label": "Convertir una medida temporal de una única unidad a forma compleja.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-005",
+          "canonical_label": "Convertir medidas angulares entre forma compleja e incompleja.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-006",
+          "canonical_label": "Convertir partes decimales de horas o grados a unidades sexagesimales inferiores.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-007",
+          "canonical_label": "Sumar medidas sexagesimales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-008",
+          "canonical_label": "Restar medidas sexagesimales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-009",
+          "canonical_label": "Dividir medidas sexagesimales cuando la tarea lo requiere.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SEX-010",
+          "canonical_label": "Modelizar y resolver situaciones contextualizadas de tiempo o ángulos utilizando el sistema sexagesimal.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "ALG_POL",
+      "title": "Álgebra, monomios y polinomios",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [
+        "LT-ALG-008, LT-ALG-009 y LT-ALG-010 preservan explícitamente el error recurrente de combinar términos no semejantes señalado en revisión humana."
+      ],
+      "targets": [
+        {
+          "learning_target_id": "LT-ALG-001",
+          "canonical_label": "Traducir relaciones verbales sencillas a lenguaje algebraico.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-002",
+          "canonical_label": "Distinguir número, letra, constante y término en una expresión algebraica.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-003",
+          "canonical_label": "Reconocer la multiplicación implícita en expresiones algebraicas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-004",
+          "canonical_label": "Identificar coeficiente y parte literal de un monomio.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-005",
+          "canonical_label": "Interpretar coeficientes implícitos 1 y −1.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-006",
+          "canonical_label": "Determinar el grado de un monomio.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-007",
+          "canonical_label": "Reconocer cuándo dos monomios son semejantes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-008",
+          "canonical_label": "Reconocer que un término independiente no es semejante a un término con variable; por ejemplo 3 y 2x.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-009",
+          "canonical_label": "Decidir qué términos pueden reducirse conjuntamente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-010",
+          "canonical_label": "Mantener separados términos no semejantes, por ejemplo conservar 2x + 3 en lugar de transformarlo en 5x.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-011",
+          "canonical_label": "Sumar y restar monomios semejantes modificando coeficientes y conservando la parte literal.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-012",
+          "canonical_label": "Multiplicar monomios.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-013",
+          "canonical_label": "Dividir monomios.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-014",
+          "canonical_label": "Sustituir valores numéricos en una expresión respetando signos, potencias y agrupaciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-001",
+          "canonical_label": "Identificar los términos que forman un polinomio.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-002",
+          "canonical_label": "Identificar coeficientes y término independiente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-003",
+          "canonical_label": "Interpretar la ausencia de un término de un determinado grado mediante coeficiente cero cuando corresponda.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-004",
+          "canonical_label": "Determinar el grado de un polinomio.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-005",
+          "canonical_label": "Sumar y restar polinomios reduciendo términos semejantes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-006",
+          "canonical_label": "Gestionar correctamente signos delante de expresiones al sumar/restar polinomios.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-007",
+          "canonical_label": "Multiplicar un polinomio por un monomio mediante distributiva.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-008",
+          "canonical_label": "Multiplicar dos polinomios y reducir el resultado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-009",
+          "canonical_label": "Reconocer y desarrollar el cuadrado de una suma.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-010",
+          "canonical_label": "Reconocer y desarrollar el cuadrado de una diferencia.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-POL-011",
+          "canonical_label": "Reconocer y desarrollar suma por diferencia.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-ALG-015",
+          "canonical_label": "Modelizar expresiones verbales o geométricas mediante expresiones algebraicas.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "EQ",
+      "title": "Ecuaciones de primer y segundo grado",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-EQ-001",
+          "canonical_label": "Reconocer una ecuación e identificar su incógnita.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-002",
+          "canonical_label": "Comprobar por sustitución si un valor es solución.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-003",
+          "canonical_label": "Distinguir el grado de una ecuación en los casos tratados.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-004",
+          "canonical_label": "Comprender que ecuaciones equivalentes conservan sus soluciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-005",
+          "canonical_label": "Realizar transformaciones equivalentes sumando/restando una misma cantidad en ambos miembros.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-006",
+          "canonical_label": "Realizar transformaciones equivalentes multiplicando/dividiendo ambos miembros cuando procede.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-007",
+          "canonical_label": "Eliminar paréntesis respetando reglas de signos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-008",
+          "canonical_label": "Eliminar denominadores mediante un múltiplo común cuando corresponde.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-009",
+          "canonical_label": "Agrupar términos con incógnita y términos independientes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-010",
+          "canonical_label": "Reducir términos semejantes dentro de la ecuación.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-011",
+          "canonical_label": "Despejar finalmente la incógnita.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-012",
+          "canonical_label": "Resolver ecuaciones de primer grado combinando los pasos necesarios.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-013",
+          "canonical_label": "Asignar una incógnita apropiada a la cantidad desconocida en un problema.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-014",
+          "canonical_label": "Traducir las relaciones del enunciado a una ecuación.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ-015",
+          "canonical_label": "Modelizar, resolver e interpretar problemas mediante ecuaciones de primer grado.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-001",
+          "canonical_label": "Reconocer y ordenar una ecuación de segundo grado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-002",
+          "canonical_label": "Identificar sus coeficientes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-003",
+          "canonical_label": "Distinguir ecuaciones completas e incompletas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-004",
+          "canonical_label": "Aplicar la fórmula general de segundo grado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-005",
+          "canonical_label": "Resolver una incompleta sin término lineal mediante aislamiento de x² y raíz.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-006",
+          "canonical_label": "Resolver una incompleta sin término independiente mediante factor común y producto nulo.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-EQ2-007",
+          "canonical_label": "Modelizar y resolver problemas mediante ecuaciones de segundo grado dentro del alcance de las tareas proporcionadas.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "SYS",
+      "title": "Sistemas de ecuaciones",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-SYS-001",
+          "canonical_label": "Comprobar si un par ordenado satisface una ecuación lineal con dos incógnitas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-002",
+          "canonical_label": "Interpretar los pares solución de una ecuación lineal con dos incógnitas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-003",
+          "canonical_label": "Interpretar la solución de un sistema como el par que satisface simultáneamente ambas ecuaciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-004",
+          "canonical_label": "Relacionar la solución algebraica con el punto de intersección de las rectas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-005",
+          "canonical_label": "Resolver un sistema por sustitución.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-006",
+          "canonical_label": "Resolver un sistema por igualación.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-007",
+          "canonical_label": "Resolver un sistema por reducción.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-008",
+          "canonical_label": "Recuperar la segunda incógnita una vez obtenida la primera.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-009",
+          "canonical_label": "Reconocer sistemas incompatibles dentro del tratamiento de la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-010",
+          "canonical_label": "Identificar las dos cantidades desconocidas pertinentes en un problema.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-011",
+          "canonical_label": "Traducir las relaciones del problema a dos ecuaciones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-012",
+          "canonical_label": "Comprobar la solución obtenida contra las condiciones originales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SYS-013",
+          "canonical_label": "Modelizar, resolver e interpretar problemas mediante sistemas de dos ecuaciones.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "PROP",
+      "title": "Proporcionalidad",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-PROP-001",
+          "canonical_label": "Interpretar una razón respetando el orden de las cantidades comparadas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-002",
+          "canonical_label": "Interpretar una proporción como igualdad de razones.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-003",
+          "canonical_label": "Identificar extremos y medios.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-004",
+          "canonical_label": "Utilizar el producto de extremos y medios para obtener un valor desconocido.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-005",
+          "canonical_label": "Reconocer proporcionalidad directa.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-006",
+          "canonical_label": "Obtener e interpretar su constante de proporcionalidad.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-007",
+          "canonical_label": "Resolver proporcionalidad directa mediante reducción a la unidad.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-008",
+          "canonical_label": "Reconocer proporcionalidad inversa.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-009",
+          "canonical_label": "Utilizar la constancia del producto en proporcionalidad inversa.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-010",
+          "canonical_label": "Resolver proporcionalidad inversa mediante reducción a la unidad.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-011",
+          "canonical_label": "Determinar a partir del contexto si una relación es directa o inversa.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROP-012",
+          "canonical_label": "Modelizar y resolver problemas de proporcionalidad seleccionando la relación y procedimiento adecuados.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "PCT",
+      "title": "Porcentajes",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-PCT-001",
+          "canonical_label": "Interpretar un porcentaje como fracción de denominador 100.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-002",
+          "canonical_label": "Convertir un porcentaje a decimal y viceversa dentro del alcance de la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-003",
+          "canonical_label": "Identificar en el problema el total, la parte y el porcentaje.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-004",
+          "canonical_label": "Calcular la parte conocidos total y porcentaje.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-005",
+          "canonical_label": "Obtener el total conocidos parte y porcentaje.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-006",
+          "canonical_label": "Obtener el porcentaje conocidos total y parte.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-007",
+          "canonical_label": "Interpretar y calcular un aumento porcentual.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-008",
+          "canonical_label": "Interpretar y calcular una disminución porcentual.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-009",
+          "canonical_label": "Utilizar factores multiplicativos para aumentos y disminuciones según el método presentado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PCT-010",
+          "canonical_label": "Modelizar y resolver situaciones contextualizadas de porcentajes identificando correctamente la cantidad base.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "FUNC",
+      "title": "Funciones y funciones lineales",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-FUNC-001",
+          "canonical_label": "Determinar si una relación constituye una función mediante unicidad de imagen.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-002",
+          "canonical_label": "Distinguir variable independiente y dependiente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-003",
+          "canonical_label": "Interpretar la imagen de un valor.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-004",
+          "canonical_label": "Interpretar dominio.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-005",
+          "canonical_label": "Interpretar recorrido o imagen.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-006",
+          "canonical_label": "Relacionar enunciado, tabla, fórmula y gráfica como representaciones de una función.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-007",
+          "canonical_label": "Representar pares ordenados en el plano.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-008",
+          "canonical_label": "Leer pares e imágenes desde una gráfica.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-009",
+          "canonical_label": "Reconocer simetría respecto del eje vertical según el tratamiento del material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-010",
+          "canonical_label": "Reconocer simetría respecto del origen.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-011",
+          "canonical_label": "Reconocer periodicidad y período.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-012",
+          "canonical_label": "Identificar continuidad y discontinuidades.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-013",
+          "canonical_label": "Determinar intervalos de crecimiento y decrecimiento.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-014",
+          "canonical_label": "Identificar máximos y mínimos relativos en una gráfica.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-001",
+          "canonical_label": "Reconocer una función lineal/afín en la forma empleada por la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-002",
+          "canonical_label": "Interpretar la pendiente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-003",
+          "canonical_label": "Interpretar la ordenada en el origen.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-004",
+          "canonical_label": "Representar una recta obteniendo dos puntos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-005",
+          "canonical_label": "Reconocer funciones de proporcionalidad directa y = mx.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-006",
+          "canonical_label": "Relacionar igualdad de pendientes con paralelismo dentro del alcance de la fuente.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-007",
+          "canonical_label": "Obtener el punto de corte de dos rectas mediante el sistema asociado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-008",
+          "canonical_label": "Reconocer ecuaciones de rectas horizontales y verticales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-LIN-009",
+          "canonical_label": "Comprender por qué una recta vertical no representa una función de x en este marco.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-015",
+          "canonical_label": "Construir una representación funcional a partir de una situación contextualizada.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-FUNC-016",
+          "canonical_label": "Interpretar una gráfica en términos de la situación que representa.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "STAT",
+      "title": "Estadística descriptiva",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-STAT-001",
+          "canonical_label": "Distinguir población, muestra e individuo.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-002",
+          "canonical_label": "Identificar la variable estadística estudiada.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-003",
+          "canonical_label": "Distinguir variables cualitativas y cuantitativas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-004",
+          "canonical_label": "Distinguir variables cuantitativas discretas y continuas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-005",
+          "canonical_label": "Realizar el recuento de una colección de datos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-006",
+          "canonical_label": "Calcular e interpretar frecuencia absoluta.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-007",
+          "canonical_label": "Calcular e interpretar frecuencia absoluta acumulada.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-008",
+          "canonical_label": "Calcular e interpretar frecuencia relativa.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-009",
+          "canonical_label": "Relacionar frecuencia relativa con porcentaje.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-010",
+          "canonical_label": "Calcular e interpretar frecuencia relativa acumulada.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-011",
+          "canonical_label": "Agrupar datos en intervalos cuando la tarea lo requiere.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-012",
+          "canonical_label": "Determinar la marca de clase.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-013",
+          "canonical_label": "Construir e interpretar diagramas de barras.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-014",
+          "canonical_label": "Construir e interpretar histogramas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-015",
+          "canonical_label": "Construir e interpretar polígonos de frecuencias.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-016",
+          "canonical_label": "Construir e interpretar diagramas de sectores.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-017",
+          "canonical_label": "Calcular e interpretar la media aritmética.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-018",
+          "canonical_label": "Determinar e interpretar la moda.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-019",
+          "canonical_label": "Determinar e interpretar la mediana.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-020",
+          "canonical_label": "Calcular/interpretar varianza dentro del tratamiento del material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-021",
+          "canonical_label": "Calcular/interpretar desviación típica.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-022",
+          "canonical_label": "Utilizar el coeficiente de variación para comparar dispersión en el contexto presentado.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-STAT-023",
+          "canonical_label": "Desarrollar un estudio estadístico contextualizado desde los datos hasta su representación e interpretación.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "PROB",
+      "title": "Probabilidad",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-PROB-001",
+          "canonical_label": "Distinguir experimentos aleatorios y deterministas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-002",
+          "canonical_label": "Construir o identificar el espacio muestral.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-003",
+          "canonical_label": "Distinguir sucesos elementales y compuestos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-004",
+          "canonical_label": "Reconocer sucesos seguro e imposible.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-005",
+          "canonical_label": "Determinar el suceso complementario.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-006",
+          "canonical_label": "Interpretar la unión de sucesos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-007",
+          "canonical_label": "Interpretar la intersección de sucesos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-008",
+          "canonical_label": "Determinar compatibilidad de sucesos en las tareas en que aparece.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-009",
+          "canonical_label": "Reconocer cuándo los resultados elementales son equiprobables antes de aplicar Laplace.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-010",
+          "canonical_label": "Contabilizar casos favorables y posibles.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-011",
+          "canonical_label": "Aplicar la regla de Laplace.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-012",
+          "canonical_label": "Interpretar probabilidades entre 0 y 1.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-013",
+          "canonical_label": "Calcular probabilidades de uniones utilizando la relación proporcionada por el material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PROB-014",
+          "canonical_label": "Modelizar una situación aleatoria identificando experimento, espacio muestral, sucesos y procedimiento de cálculo.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "PIT",
+      "title": "Teorema de Pitágoras",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-PIT-001",
+          "canonical_label": "Identificar hipotenusa y catetos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-002",
+          "canonical_label": "Aplicar correctamente la relación pitagórica para hallar la hipotenusa.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-003",
+          "canonical_label": "Aplicar correctamente la relación pitagórica para hallar un cateto.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-004",
+          "canonical_label": "Determinar si un triángulo es rectángulo mediante la relación pitagórica.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-005",
+          "canonical_label": "Detectar o construir el triángulo rectángulo apropiado dentro de una figura más compleja.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-006",
+          "canonical_label": "Utilizar Pitágoras para calcular diagonales, alturas, lados o apotemas en las figuras tratadas.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-007",
+          "canonical_label": "Utilizar una longitud obtenida mediante Pitágoras como resultado intermedio de un cálculo posterior.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-PIT-008",
+          "canonical_label": "Modelizar y resolver problemas geométricos en los que la configuración pitagórica no viene preparada explícitamente.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "SIM_TAL",
+      "title": "Semejanza, escalas y teorema de Tales",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-SIM-001",
+          "canonical_label": "Reconocer figuras semejantes dentro del tratamiento del material.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SIM-002",
+          "canonical_label": "Identificar lados y ángulos correspondientes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SIM-003",
+          "canonical_label": "Obtener e interpretar la razón de semejanza.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SIM-004",
+          "canonical_label": "Interpretar una escala.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SIM-005",
+          "canonical_label": "Convertir entre medida representada y medida real mediante escala.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SIM-006",
+          "canonical_label": "Establecer proporciones entre lados correspondientes de triángulos semejantes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-TAL-001",
+          "canonical_label": "Reconocer la configuración geométrica presentada por el teorema de Tales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-TAL-002",
+          "canonical_label": "Identificar segmentos correspondientes en una configuración de Tales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-TAL-003",
+          "canonical_label": "Construir la proporción adecuada entre esos segmentos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-TAL-004",
+          "canonical_label": "Utilizar Tales para dividir un segmento en partes iguales.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-TAL-005",
+          "canonical_label": "Utilizar semejanza/Tales para obtener indirectamente alturas mediante sombras.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-SIM-007",
+          "canonical_label": "Modelizar y resolver situaciones contextualizadas de escalas, mapas, maquetas, semejanza o Tales.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "GEO2D",
+      "title": "Áreas y perímetros",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-GEO2D-001",
+          "canonical_label": "Distinguir longitud, perímetro y área como magnitudes diferentes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-002",
+          "canonical_label": "Identificar los elementos geométricos necesarios en una fórmula: base, altura, diagonales, radio, apotema, etc.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-003",
+          "canonical_label": "Seleccionar la fórmula de perímetro adecuada para las figuras tratadas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-004",
+          "canonical_label": "Seleccionar la fórmula de área adecuada para las figuras tratadas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-005",
+          "canonical_label": "Determinar si falta obtener previamente una longitud antes de calcular un perímetro o área.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-006",
+          "canonical_label": "Descomponer una figura compuesta en figuras conocidas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-007",
+          "canonical_label": "Combinar áreas de figuras simples para obtener el área de una figura compuesta.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-008",
+          "canonical_label": "Gestionar correctamente unidades lineales y cuadradas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO2D-009",
+          "canonical_label": "Modelizar y resolver problemas contextualizados de áreas y perímetros.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    },
+    {
+      "domain_id": "GEO3D",
+      "title": "Cuerpos geométricos",
+      "source_basis": [
+        "Libro2ESO pdf Matemáticas.pdf",
+        "iterative human review in chat"
+      ],
+      "notes": [],
+      "targets": [
+        {
+          "learning_target_id": "LT-GEO3D-001",
+          "canonical_label": "Distinguir superficie/área y volumen.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-002",
+          "canonical_label": "Reconocer los elementos relevantes de prismas, pirámides, cilindros y conos tratados.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-003",
+          "canonical_label": "Calcular el área total de prismas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-004",
+          "canonical_label": "Calcular el volumen de prismas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-005",
+          "canonical_label": "Calcular el área total de pirámides.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-006",
+          "canonical_label": "Calcular el volumen de pirámides.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-007",
+          "canonical_label": "Calcular el área total de cilindros.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-008",
+          "canonical_label": "Calcular el volumen de cilindros.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-009",
+          "canonical_label": "Calcular el área total de conos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-010",
+          "canonical_label": "Calcular el volumen de conos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-011",
+          "canonical_label": "Relacionar volumen y capacidad cuando el contexto utiliza litros.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-012",
+          "canonical_label": "Obtener previamente medidas necesarias mediante otras relaciones geométricas.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-013",
+          "canonical_label": "Descomponer un cuerpo compuesto en cuerpos conocidos.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-014",
+          "canonical_label": "Combinar volúmenes o superficies de cuerpos componentes.",
+          "type": "ATOMIC",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        },
+        {
+          "learning_target_id": "LT-GEO3D-015",
+          "canonical_label": "Modelizar y resolver problemas contextualizados de superficie, volumen y capacidad.",
+          "type": "INTEGRATION",
+          "status": "VALIDATED_FOR_EXPERIMENT"
+        }
+      ]
+    }
+  ],
+  "noncanonical_discovery_registry": [
+    {
+      "candidate_id": "CB01-LT-PCT-CHAIN-001",
+      "candidate_label": "Resolver variaciones porcentuales sucesivas mediante factores multiplicativos.",
+      "status": "PROPOSED_SCOPE_REVIEW",
+      "canonical": false,
+      "reason": "Detectado en material suplementario de alcance/procedencia mixta; no incorporado al núcleo v0.1."
+    }
+  ],
+  "out_of_scope_or_not_yet_canonicalized": [
+    "Sistemas con tres incógnitas detectados en material adicional.",
+    "Funciones cuadráticas detectadas en hojas posteriores.",
+    "Hojas etiquetadas internamente como 1º ESO o 3º ESO que no se han promovido silenciosamente al núcleo 2º ESO.",
+    "Figuras/cuerpos adicionales de hojas de fórmulas fuera del núcleo prisma-pirámide-cilindro-cono.",
+    "Alineamiento con currículo oficial, programa del centro o requisitos de examen."
+  ]
+}
